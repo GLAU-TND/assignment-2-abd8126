@@ -6,11 +6,15 @@
  */
 package problem1.mybst;
 import problem1.node.TreeNode;
+import problem4.myqueue.MyQueue;
 // to implement BinarySearchTree
 
 public class MyBinarySearchTree {
     private TreeNode root;
     private int countRight;
+
+    public MyBinarySearchTree(MyQueue preQueue, MyQueue postQueue) {
+    }
 
     public void insert(int data){
         TreeNode node = new TreeNode(data);
