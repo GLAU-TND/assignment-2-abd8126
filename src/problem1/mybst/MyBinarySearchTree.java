@@ -88,10 +88,7 @@ public class MyBinarySearchTree {
             if(current.getLeft()==null) {
                 countRight++;
             }
-            if(parent.getData()==current.getData()){
-
-            }
-            if(parent.getData()<current.getData()) {
+            if (parent.getData() == current.getData() && parent.getData() < current.getData()) {
                 System.out.println(current.getData());
                 current = current.getLeft();
             }
